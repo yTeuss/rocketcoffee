@@ -34,13 +34,16 @@ body {
   margin-right: 50px;
 }
 
+.logo {
+  margin-right: 140.94px;
+}
+
 .menu {
-  font-size: 14px;
   display: flex;
   color: var(--text-color);
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 431.35px;
   height: 19px;
   left: 464px;
   top: 65px;
@@ -50,8 +53,10 @@ body {
   list-style-type: none;
   position: relative;
   display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 20px;
 }
-
 
 .btn {
   display: flex;
@@ -80,8 +85,5 @@ body {
 
 /* Main */
 
-.texto{
- 
-
+.texto {
 }
-
