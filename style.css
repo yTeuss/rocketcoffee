@@ -61,6 +61,7 @@ body {
   font-size: 11px;
   color: var(--text-color);
   background-color: transparent;
+  font-family: 'Manrope';
 
   width: 172px;
   margin-right: 37px;
@@ -77,4 +78,10 @@ body {
   border-radius: 6px;
 }
 
-/* Title */
+/* Main */
+
+.texto{
+ 
+
+}
+
