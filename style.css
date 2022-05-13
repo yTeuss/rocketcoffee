@@ -14,91 +14,58 @@
   --text-color-menu-mobile: #e1e1e6;
 }
 
-body {
-  max-width: 1360px;
-  max-height: 768px;
-  background-color: var(--backgrond);
-  background-image: url(/assets/assets/blur-1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Manrope', sans-serif;
-  position: relative;
-}
-/* Header */
 
-.center {
-  display: flex;
-  align-items: center;
-  position: absolute;
+html,
+body {
   width: 100%;
+  height: 100%;
+}
+
+body{
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--backgrond);
+}
+
+.navigation{
+  width: 918px;
   margin-right: 50px;
   margin-left: 280px;
   margin-top: 50px;
+
 }
 
-.logo {
-  margin-right: 140.94px;
-}
 
-.menu {
-  display: flex;
-  color: var(--text-color);
-  align-items: center;
-  justify-content: center;
-  width: 431.35px;
-  height: 19px;
-  left: 464px;
-  top: 65px;
-}
-
-.menu li {
+.menu li{
   list-style-type: none;
-  position: relative;
-  display: inline-block;
+  text-decoration: none;
   font-size: 14px;
+  display: inline-block;
   text-decoration: none;
   margin-right: 20px;
 }
 
-.btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 11px;
-  color: var(--text-color);
-  background-color: transparent;
-  font-family: 'Manrope';
+.button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 38px;
+gap: 10px;
 
-  width: 172px;
-  margin-right: 37px;
-  margin-left: 130.65px;
-  margin-top: auto;
-  margin-bottom: auto;
+position: absolute;
+width: 172px;
+height: 37px;
+left: 1026px;
+top: 56px;
 
-  padding-top: 11px;
-  padding-bottom: 11px;
-  padding-right: 38px;
-  padding-left: 38px;
+border: 1px solid #8257E5;
+border-radius: 6px;
 
-  border: 1px solid var(--button);
-  border-radius: 6px;
+background-color: var(--backgrond);
+
 }
 
-/* Main */
-section {
-  align-items: center;
+.button:hover {
+  background-color: var(--button);
 }
 
-section .center {
-}
-
-section .main_cta {
-  position: relative;
-  font-size: 40px;
-  margin-right: 204px;
-  margin-left: 320px;
-  margin-top: 140px;
-  align-items: center;
-  text-align: center;
-}
