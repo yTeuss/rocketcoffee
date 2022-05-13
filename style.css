@@ -23,6 +23,11 @@ body {
 body {
   font-family: 'Manrope', sans-serif;
   background-color: var(--backgrond);
+  background-image: url(/assets/assets/blur-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 /* Menu */
 
@@ -41,6 +46,7 @@ body {
   top: 65px;
 }
 
+/* Botão do Menu web */
 .button {
   display: flex;
   flex-direction: row;
@@ -79,24 +85,20 @@ ul {
   margin-right: 20px;
 }
 
-/* Botão do Menu web */
-
-
-
 /* section */
 
-.content{
+.content {
   align-items: center;
   justify-content: center;
 }
 
-.texto{
+.texto {
   text-align: center;
   font-size: 65px;
   margin-top: 140px;
 }
 
-.img{
+.img {
   align-items: center;
   margin-right: 280.22px;
   margin-left: 281px;
